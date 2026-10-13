@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>osu! Robot | Eric Ho</title>
+  <meta name="description" content="An electromechanical robot that plays osu! using solenoids, a Teensy 4.0 and a Hall-effect keypad.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Eric Ho</a>
+    <nav>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="project-hero">
+    <a class="back" href="../index.html#projects">← All projects</a>
+    <h1>osu! Robot</h1>
+    <div class="meta" style="color:var(--muted)">October 2026 – Present</div>
+    <div class="tags"><span class="tag">Teensy 4.0</span><span class="tag">C++</span><span class="tag">Python</span><span class="tag">PlatformIO</span><span class="tag">pySerial</span><span class="tag">Git</span></div>
+
+    <!-- Replace this placeholder with your demo video, e.g.:
+         <video src="../assets/osu-demo.mp4" controls muted playsinline></video>
+         or a YouTube embed. -->
+    <div class="media-placeholder"><div>Demo video goes here<br><small>Drop a clip into /assets and swap this box out</small></div></div>
+  </div>
+
+  <section class="prose">
+    <h2>Overview</h2>
+    <p>An electromechanical robot that plays the rhythm game osu! by physically pressing keys on a Hall-effect keypad with solenoids. A PC reads the beatmap and sends timed key-press commands over serial to a Teensy 4.0, which fires the solenoids through MOSFET driver circuits.</p>
+  </section>
+
+  <section class="prose">
+    <h2>How it works</h2>
+    <ul>
+      <li><strong>Actuation:</strong> solenoids positioned over the keys of a Hall-effect keypad.</li>
+      <li><strong>Driver circuits:</strong> logic-level MOSFETs switch each solenoid, with flyback diodes and a 12V power stage.</li>
+      <li><strong>Firmware:</strong> Teensy 4.0 firmware in C++ (PlatformIO) receives commands and drives the solenoids with precise timing.</li>
+      <li><strong>PC interface:</strong> a Python program using pySerial sends timed key-press commands to the Teensy.</li>
+      <li><strong>Calibration:</strong> actuation latency is measured with a logic analyzer to correct timing and improve hit accuracy.</li>
+    </ul>
+    <p class="todo">Add a block diagram (PC → serial → Teensy → MOSFET → solenoid → key) and a photo of your schematic here.</p>
+  </section>
+
+  <section class="prose">
+    <h2>Challenges &amp; what I learned</h2>
+    <p class="todo">Write about problems you hit and how you solved them, e.g. solenoid latency, inductive kickback, serial timing jitter, mechanical mounting. This is the section engineers read most closely.</p>
+  </section>
+
+  <section class="prose">
+    <h2>Results</h2>
+    <p class="todo">Add numbers once you have them: measured actuation latency, timing error before and after calibration, accuracy, or best score.</p>
+  </section>
+
+  <section class="prose">
+    <h2>Code</h2>
+    <p>Source code is on <a href="https://github.com/ericho235" target="_blank" rel="noopener">GitHub</a>.</p>
+    <p class="todo">Change this link to point at the specific repo once it's public.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">© 2026 Eric Ho</div></footer>
+</body>
+</html>
